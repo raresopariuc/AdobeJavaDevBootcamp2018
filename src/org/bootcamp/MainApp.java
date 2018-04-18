@@ -1,5 +1,15 @@
 package org.bootcamp;
 
+import org.bootcamp.calculator.InsurancePolicyCalculator;
+import org.bootcamp.formula.BusBasicFormula;
+import org.bootcamp.formula.CarBasicFormula;
+import org.bootcamp.formula.Formula;
+import org.bootcamp.formula.TipperBasicFormula;
+import org.bootcamp.vehicle.Bus;
+import org.bootcamp.vehicle.Car;
+import org.bootcamp.vehicle.Tipper;
+import org.bootcamp.vehicle.Vehicle;
+
 public class MainApp {
 
     public static void main(String[] args) {
