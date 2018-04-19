@@ -6,6 +6,10 @@ public final class Car extends Vehicle {
     public Car() {
     }
 
+    public Car(int age, long numberOfMiles, boolean isDiesel) {
+        super(age, numberOfMiles, isDiesel);
+    }
+
     public Car(int age, long numberofMiles, boolean isDiesel, String transmission) {
         super(age, numberofMiles, isDiesel);
         this.transmission = transmission;
