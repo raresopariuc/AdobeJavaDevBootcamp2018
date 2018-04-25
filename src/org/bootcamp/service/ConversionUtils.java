@@ -10,7 +10,8 @@ final class ConversionUtils {
     private ConversionUtils() {
     }
 
-    public static Vehicle getVehicle(String vehicleName, int age, long numberOfMiles, boolean isDiesel) {
+    static Vehicle getVehicle(String vehicleName, int age, long numberOfMiles, boolean isDiesel) {
+
         final String carClassName = Car.class.getSimpleName().toUpperCase();
         final String busClassName = Bus.class.getSimpleName().toUpperCase();
         final String tipperClassName = Tipper.class.getSimpleName().toUpperCase();

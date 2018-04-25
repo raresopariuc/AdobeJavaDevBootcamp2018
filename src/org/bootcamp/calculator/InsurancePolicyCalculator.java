@@ -10,7 +10,7 @@ public final class InsurancePolicyCalculator {
     private InsurancePolicyCalculator() {
     }
 
-    public int calculate(Vehicle vehicle, Formula formula) {
+    public double calculate(Vehicle vehicle, Formula formula) {
         return formula.calculate(vehicle);
     }
 }
